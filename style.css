@@ -1,0 +1,22 @@
+.banner-text {
+  position: absolute;
+  top: 55%;
+  text-align: center;
+  left: 10%;
+}
+
+.banner-text h2 {
+  color: rgb(238, 255, 254);
+  font-size: 85px;
+  margin: 0;
+}
+
+.banner-text p {
+  color: seashell;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+}
