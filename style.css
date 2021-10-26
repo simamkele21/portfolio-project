@@ -1,6 +1,26 @@
+/* navbar */
+.navbar-toggler {
+  border-color: #ae142a;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ae142a;
+}
+
+/* bg video */
+#vid-bg {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* home page text */
 .banner-text {
   position: absolute;
-  top: 55%;
+  top: 45%;
   text-align: center;
   left: 10%;
 }
@@ -18,16 +38,26 @@
   font-weight: bold;
 }
 
-.navbar-toggler {
-  border-color: #ae142a;
-  text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #fff;
-  background-color: #ae142a;
-}
+/* about me */
 
-.vid-bg {
-  width: 100%;
-  overflow: auto;
+body {
+  background: #f7f7ff;
+  margin-top: 20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+  margin-right: 0.5rem !important;
 }
