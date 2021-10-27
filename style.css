@@ -1,63 +1,54 @@
-/* navbar */
-.navbar-toggler {
-  border-color: #ae142a;
-  text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #fff;
-  background-color: #ae142a;
+#home {
+  background-image: url(gb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
-/* bg video */
-#vid-bg {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+.home {
+  font-family: "Montserrat", sans-serif;
+  size: 50xp;
+  color: wheat;
 }
-
-/* home page text */
 .banner-text {
   position: absolute;
-  top: 45%;
+  top: 40%;
   text-align: center;
-  left: 10%;
+  left: 35%;
 }
-
-.banner-text h2 {
+.banner-text h1 {
   color: rgb(238, 255, 254);
-  font-size: 85px;
+  font-size: xx-large;
   margin: 0;
+  font-weight: bold;
 }
 
 .banner-text p {
   color: seashell;
   font-size: 30px;
   margin: 0;
-  font-weight: bold;
+}
+section {
+  height: 100vh;
+  background-color: darkslategray;
+  align-content: center;
+}
+#main {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* about me */
-
-body {
-  background: #f7f7ff;
-  margin-top: 20px;
+.card-block {
+  margin-bottom: 15px;
 }
+/* MEDIA RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
+
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 0 solid transparent;
-  border-radius: 0.25rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
-    0 2px 6px 0 rgb(206 206 238 / 54%);
-}
-.me-2 {
-  margin-right: 0.5rem !important;
+  margin: auto;
 }

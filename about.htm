@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding:  30px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<body>
+      <!-- NAVBAR START -->
+    <div class="NAVB">
+    <nav class="navbar navbar-light bg-transparent fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: rgb(255, 255, 255);">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          style="background-color: cornsilk;"
+        >
+          <span class="navbar-toggler-icon" style="color: cornsilk;"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              SJ Portfolio
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Testimonials">Testemonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+    <!-- NAVBAR END -->​
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+Result Size: 909 x 813
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+​
+
+<div class="about-section">
+
+  <h1>About Us Page</h1>
+
+  <p>Some text about who we are and what we do.</p>
+
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+
+</div>
+
+​
+
+<h2 style="text-align:center">Our Team</h2>
+
+<div class="row">
+
+  <div class="column">
+
+    <div class="card">
+
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+
+      <div class="container">
+
+        <h2>Jane Doe</h2>
+
+        <p class="title">CEO & Founder</p>
+
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+        <p>jane@example.com</p>
+
+        <p><button class="button">Contact</button></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+​
+
+  <div class="column">
+
+    <div class="card">
+
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+
+      <div class="container">
+
+        <h2>Mike Ross</h2>
+
+        <p class="title">Art Director</p>
+
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+        <p>mike@example.com</p>
+
+        <p><button class="button">Contact</button></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <div class="card">
+
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+
+      <div class="container">
+
+        <h2>John Doe</h2>
+
+        <p class="title">Designer</p>
+
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+        <p>john@example.com</p>
+
+        <p><button class="button">Contact</button></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+​
+
+
+​</body>
+<script src="bootstrap.bundle.min.js"></script>
+</html>
