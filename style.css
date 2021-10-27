@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 #home {
   background-image: url(gb.jpg);
   background-repeat: no-repeat;
@@ -5,15 +9,15 @@
   color: white;
 }
 
-.home {
+#home {
   font-family: "Montserrat", sans-serif;
   size: 50xp;
+  padding-top: 450px;
   color: wheat;
 }
 .banner-text {
-  position: absolute;
-  top: 40%;
   text-align: center;
+  bottom: 30%;
   left: 35%;
 }
 .banner-text h1 {
@@ -32,6 +36,9 @@ section {
   height: 100vh;
   background-color: darkslategray;
   align-content: center;
+}
+header {
+  text-align: center;
 }
 #main {
   margin-top: auto;
@@ -52,3 +59,4 @@ section {
 .card {
   margin: auto;
 }
+
