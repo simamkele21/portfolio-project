@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="timeline.css">
     <link rel="stylesheet" href="bootstrap.min.css" />
     <title>Portfolio</title>
   </head>
@@ -36,10 +38,13 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#skillsa and education">Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#testemonials">Testemonials</a>
+            <a class="nav-link active" aria-current="page" href="#testimonials">Testimonials</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -54,7 +59,7 @@
 
     <!-- HOME -->
     <section id="home">
-      <div class="container align-items-centre">
+      <div class="land align-items-centre">
       <div class="banner-text ">
         <h2>Hello, my name is <span>Simamkele January.</span></h2>
         <p>I am an aspiring Full stack web developer</p>
@@ -66,13 +71,13 @@
 
     <!-- ABOUT -->
     <section id="about">
-      <header style=" font-size: xx-large;">About Me Page</header>
+      <header style=" font-size: xx-large ; color: rgb(248, 246, 246);">About Me Page</header>
       <div class="card mb-3 my-5" style="max-width: 600px">
         <div class="row g-0">
-          <div class="col-md-4">
-            <img src="Simamkele1.JPG" class="img-fluid rounded-start" alt="Image of myself" />
+          <div class="col-md-6">
+            <img src="Simamkele1.JPG" class="img-fluid rounded-start" alt="Image of myself" style="width: 500px;"/>
             </div>
-          <div class="col-md-8">
+          <div class="col-md-6">
             <div class="card-body">
               <h class="card-title">Simamkele January</hz>
               <!-- <p class="card-text"> -->
@@ -92,137 +97,242 @@
                   started studying IT but decided to rather pursue coding as I have found the coding languages far
                   more stimulating.
                 </p>  
-              
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- ABOUT END -->
-    <!-- PROJECTS -->
-    <section id="projects">
-      <header>Projects</header>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col card-block">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-block">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-block">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
-            </div>
-          </div>
-        </div>
-      
-        <div class="col card-block">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-block">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-block">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- PROJECTS END -->
 
-    <!-- TESTEMONIALS -->
-    <section id="testimonials">
- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+    <!-- EDUCATION -->
+<section id="education">
+  <header style=" font-size: xx-large ; color: rgb(248, 246, 246);">Educational Timeline</header>
+  <div class="container">
+    <div class="row">
+				<div class="col-md-12">
+									<div style="display:inline-block;width:100%;overflow-y:auto;">
+					<ul class="timeline timeline-horizontal">
+						<li class="timeline-item">
+							<div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Matric</h4>
+									<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2018</small></p>
+								</div>
+								<div class="timeline-body">
+									<p>In 2018 i completed matric at Garlandale high School,Athlone.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Department of Local Government</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2019 – 2020</small></p>
+								</div>
+								<div class="timeline-body">
+									<p>Intern.</p>
+                <p>Duties: Administration, Creating and maintaining databases, stakeholder liaising</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">iCCOLLEGE</h4>
+									<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2020-2021</small></p>
+								</div>
+								<div class="timeline-body">
+									<p>Further Education and Training Certificate: Information Technology – Technical Support </p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4 class="timeline-title">Life Choices Coding Bootcamp</h4>
+									<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Current</small></p>
+								</div>
+								<div class="timeline-body">
+									<p>Fucusing on full-stack web development</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+</section>
+    <!-- EDUCATION END -->
+
+    <!-- SKILLS -->
+    <section id="skills">
+ <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Testimonial img/lilitha.jpg" class="d-block w-100" alt="Lilitha">
+      <img class="d-block w-100" src="languages/css.jpeg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img src="Testimonial img/Diego4.JPG" class="d-block w-100" alt="Diego">
+      <img class="d-block w-100" src="languages/html.jpeg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img src="Testimonial img/Muneeb3.JPG" class="d-block w-100" alt="Muneeb">
+      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
     </div>
-
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </section>
+    <!-- SKILLS END -->
+
+    <!-- Projects -->
+  <section id="projects">
+    <header style=" font-size: xx-large ; color: rgb(248, 246, 246);">Projects</header>
+<div class="content-wrapper">
+  
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing First Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/631954/pexels-photo-631954.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Second Title that is Quite Long</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam obcaecati ex natus nulla rem sequi laborum quod fugit&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="news-card__image">
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/248486/pexels-photo-248486.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Forth Title that is Quite Long</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet!</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing Fifth Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <a href="#" class="news-card__card-link"></a>
+    <img src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+    <div class="news-card__text-wrapper">
+      <h2 class="news-card__title">Amazing 6<sup>th</sup> Title</h2>
+      <div class="news-card__post-date">Jan 29, 2018</div>
+      <div class="news-card__details-wrapper">
+        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia.</p>
+        <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+    </section> 
+    <!-- PROJECTS END -->
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+<header style="font-size: xx-large; color: rgb(248, 246, 246);">Testimonials</header>
+
+<div class="container">
+  <img src="Testimonial img/lilitha.jpg" alt="Lilitha">
+  <p><span>Lilitha</span> Colleague.</p>
+  <p>Simamkele is a hardworking person who always seeks help when stuck whick makes him a goal-driven person.</p>
+</div>
+
+<div class="container">
+  <img src="Testimonial img/Muneeb3.JPG" alt="Muneeb">
+  <p><span>Muneeb.</span>Colleague</p>
+  <p>Great humor and great person to work with. Always has a smile on his face and always works hard to finish the task at hand.</p>
+</div>
+
+<div class="container">
+  <img src="Testimonial img/Tursha.png" alt="Diego">
+  <p><span>Tursha</span> Colleague.</p>
+  <p>Simamkele , the little man with big ideas. A very determined individual. You can always count on him to deliver good work.
+Won't regret working with him!.</p>
+</div>
+
+<div class="container">
+  <img src="Testimonial img/Na-aim1.JPG" alt="Na-aim">
+  <p><span>Na-aim.</span>Colleague.</p>
+  <p>Simamkele above all is an honest guy with a heart of gold and his punctual and his technologically competent</p>
+</div>
+
+<div class="container">
+  <img src="Testimonial img/" alt="Arden">
+  <p><span>Na-aim.</span>Colleague.</p>
+  <p>He is a humble,kind and caring person eho always deos what is right, very dedicated to what he does and always trys to help others. 
+    Simamkele easly addapts to new situations and thinks quickly on his feet.
+    To add to that he does not shy away from hard work and always puts his best foot foward
+  </p>
+</div>
+
+<div class="container">
+  <img src="Testimonial img/Godwin.jpeg" alt="Mr G">
+  <p><span>Godwin</span>Head of Curriculum and Learning.</p>
+  <p>Simamkele is a personable and easy to work with. He would be a valuable
+addition to your any coding team due to his personality.</p>
 </div>
     </section>
-    <!-- TESTEMONIALS END -->
+    <!-- TESTIMONIALS END -->
 
     <!-- CONTACT -->
     <section id="contact">
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <header class="w3-text-light-grey">Contact Me</header>
+    <header style="font-size: xx-large; color: rgb(248, 246, 246);">Contact</header>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">

@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  height: 100vh;
 }
 
 #home {
@@ -15,6 +16,20 @@ body {
   padding-top: 450px;
   color: wheat;
 }
+#about {
+  height: 112vh;
+  padding: 100px;
+}
+
+#education {
+  height: 112vh;
+  padding: 100px;
+}
+#skills {
+  height: 112vh;
+  padding: 100px;
+}
+
 .banner-text {
   text-align: center;
   bottom: 30%;
@@ -33,7 +48,6 @@ body {
   margin: 0;
 }
 section {
-  height: 100vh;
   background-color: darkslategray;
   align-content: center;
 }
@@ -49,14 +63,49 @@ header {
 .card-block {
   margin-bottom: 15px;
 }
-/* MEDIA RESPONSIVENESS */
-@media only screen and (max-width: 600px) {
-  #main {
-    margin-left: 0;
-  }
-}
 
 .card {
   margin: auto;
 }
 
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.container img {
+  margin: auto;
+  float: none;
+  display: block;
+  width: 120px;
+}
+
+/* MEDIA RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+  .land {
+    text-align: center;
+  }
+}
