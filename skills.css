@@ -20,6 +20,7 @@ body {
   position: relative;
 }
 
+/*#Investinginy0uth salesians wifi */
 .skills-header:after {
   content: "";
   position: absolute;
@@ -28,13 +29,13 @@ body {
   transform: translateX(-50%);
   width: 100px;
   height: 4px;
-  background-color: #2ecc71;
+  /* background-color: #2ecc71; */
   border-radius: 2px;
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
