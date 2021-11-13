@@ -20,13 +20,39 @@ body {
   size: 120xp;
   padding-top: 350px;
 }
-
+/* about */
 #about {
-  height: 112vh;
+  height: 100vh;
   padding-top: 30px;
 }
+.about {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.about hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.about hr.small {
+  margin: 20px 0;
+}
+.about h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-#education {
+@media (max-width: 767px) /* about end */ #education {
   height: 100vh;
   padding: 50px;
 }
@@ -112,9 +138,53 @@ h2 {
   display: block;
   width: 120px;
 }
-/* project buttons */
+/* testimonials  */
 
-/* project buttons end */
+#testimonials {
+  width: 900px;
+  margin: 0 auto;
+  font: 20px Tahoma, Georgia, serif;
+  color: #616161;
+}
+#testimonials h2 {
+  font: 26px Georgia, serif;
+}
+#testimonials li {
+  border-top: 2px solid rgba(0, 0, 0, 0);
+  clear: both;
+  padding: 28px 0;
+  list-style-type: none;
+}
+#testimonials li img {
+  border: 5px solid transparent;
+  float: left;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 12px #333;
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  margin: 0 22px 0 0;
+}
+#testimonials li:nth-child(2n) img {
+  float: right;
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+  margin: 0 0 0 2px;
+}
+#testimonials p {
+  padding: 0 0 2px;
+}
+#testimonials li:first-child {
+  border: none;
+}
+#testimonials div {
+  overflow: none;
+}
+/* testimonials buttons end */
 
 /* contact form */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
