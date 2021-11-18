@@ -48,8 +48,8 @@ body {
   color: #000;
   cursor: pointer;
 }
-.skills-box:hover > .skills-title: after, 
-.skills-box:hover > .skills-title: before {
+.skills-box:hover > .skills-title :after,
+.skills-box:hover > .skills-title :before {
   width: 30px;
 }
 .skills-box:hover .skills-img {
@@ -69,7 +69,7 @@ body {
   content: "";
   position: absolute;
   bottom: 0;
-  rigth: 50%;
+  /* rigth: 50%; */
   width: 20px;
   height: 4px;
   border-radius: 2px 0 0 2px;
