@@ -34,10 +34,17 @@ body {
   height: 100vh;
   padding-top: 50px;
 }
+
+#projects {
+  height: 100vh;
+  padding-top: 50px;
+}
+
 #contact {
   height: 112vh;
   padding: 30px;
 }
+
 .banner-text {
   text-align: center;
   bottom: 30%;
