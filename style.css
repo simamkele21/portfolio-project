@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  font-family: "Comfortaa";
 }
 * {
   box-sizing: border-box;
@@ -11,15 +11,16 @@ body {
   background-size: cover;
   color: white;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   size: 120xp;
   padding-top: 350px;
 }
 /* about */
 #about {
-  height: 100vh;
+  height: 110vh;
   padding-top: 30px;
   overflow: hidden;
+  padding-left: 200px;
 }
 
 .sim {
@@ -63,8 +64,9 @@ body {
   margin: 0;
 }
 section {
-  background-color: darkslategray;
+  background-color: rgb(0, 0, 0);
   align-content: center;
+  color: #fff;
 }
 h2 {
   text-align: center;
@@ -117,7 +119,7 @@ h2 {
 }
 
 .header-tittle h1 {
-  font-family: "Lobster", cursive;
+  /* font-family: "Lobster", cursive; */
   color: #fff;
   font-size: 2rem;
   position: relative;
@@ -130,6 +132,8 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, minmax(350px, 1fr));
   grid-gap: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .testimonials .card {
@@ -223,15 +227,15 @@ a:hover {
 
 /* testimonials buttons end */
 
-/* contact form */
+/* contact form
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 body {
   background-color: #e6e6e6;
   font-size: 100%;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-}
-
+  /* font-family: "Lato", sans-serif; */
+  /* font-weight:400;
+} */
+/* 
 div,
 textarea,
 input {
@@ -410,7 +414,7 @@ form small {
   li small {
     display: none;
   }
-}
+} */ */
 /* contact form end */
 
 /* MEDIA RESPONSIVENESS */

@@ -44,7 +44,7 @@ body {
 }
 .skills-box {
   padding: 1rem;
-  color: #000;
+  color: rgb(230, 221, 221);
   cursor: pointer;
 }
 .skills-box:hover > .skills-title :after,
@@ -72,7 +72,7 @@ body {
   width: 20px;
   height: 4px;
   border-radius: 2px 0 0 2px;
-  background-color: #2ecc71;
+  background-color: #5fdaff;
   transition: 0.5s;
 }
 
@@ -84,7 +84,7 @@ body {
   width: 100px;
   height: 4px;
   border-radius: 0 2px 2px 0;
-  background-color: #2ecc71;
+  background-color: #ff46e6;
 }
 
 .skills-icons {
@@ -115,7 +115,7 @@ body {
   border-radius: 45px 0 0 45px;
 }
 .skills-title h3 {
-  color: #333;
+  color: #fff;
   margin-top: 0.5rem;
 }
 @media screen and (max-width: 990px) {
