@@ -4,7 +4,6 @@
   margin-top: 20px;
   padding: 0;
   width: 905px;
-  height: 820px;
   -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 }
@@ -31,16 +30,16 @@
 }
 
 #tbi_slider ul:hover li {
-  width: 40px;
+  width: 50px;
 }
 
 #tbi_slider ul li:hover {
-  width: 640px;
+  width: 740px;
 }
 
 #tbi_slider li img {
   display: block;
-  width: 640px;
+  width: 905px;
 }
 
 #tbi_title {

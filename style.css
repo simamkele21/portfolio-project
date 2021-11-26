@@ -22,7 +22,12 @@ body {
   overflow: hidden;
   padding-left: 200px;
 }
-
+table,
+th,
+td {
+  border: 0.5px solid black;
+  font-size: x-large;
+}
 .sim {
   color: #e6e6e6;
 }
@@ -30,6 +35,26 @@ body {
 .sim > p {
   font-size: x-large;
 }
+/* about social icons */
+
+.social-links {
+  list-style: none;
+  padding-bottom: 50px;
+  padding-right: 40px;
+}
+.social-links > li {
+  display: inline-block;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 30%;
+}
+.social-links > li:hover {
+  background-color: #000;
+}
+li {
+  margin: 10px 5px;
+}
+
 /* about end */
 #skills {
   height: 100vh;
@@ -64,7 +89,7 @@ body {
   margin: 0;
 }
 section {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(46, 45,  45);
   align-content: center;
   color: #fff;
 }
